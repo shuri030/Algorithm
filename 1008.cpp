@@ -8,7 +8,7 @@ int main()
     cin >> a >> b;
 
 	cout.setf(ios::fixed);
-	cout.precision(9); //¼Ò¼öÁ¡ 9ÀÚ¸®±îÁö
+	cout.precision(9); //ì†Œìˆ˜ì  9
 
     cout << a/b;
 }
