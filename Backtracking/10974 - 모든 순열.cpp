@@ -5,8 +5,8 @@
 
 using namespace std;
 
-int num[9]; //만든 수열 저장
-int visit[9]; //방문 처리 배열
+int num[9];
+int visit[9];
 int n;
 
 void go(int k)
@@ -31,6 +31,7 @@ void go(int k)
     }
 
     return;
+    
 }
 int main()
 {
