@@ -12,8 +12,7 @@ vector<int> v;
 void curve(int a, int b, int g, int cur_g)
 {
     if(cur_g > g) { return; }
-
-
+    
     int n;
 
     while(!q.empty()) {

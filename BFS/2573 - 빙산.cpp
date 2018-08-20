@@ -87,7 +87,7 @@ int main()
             for(int j = 1; j <= M; j++) {
                 cal[i][j] = board[i][j];
                 if(board[i][j] != 0) {
-                    ice_land.push((make_pair(i, j)));
+                    ice_land.push({i, j});
                 }
             }
         }

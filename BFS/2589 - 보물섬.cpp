@@ -56,7 +56,7 @@ int main()
     for(int i = 1; i <= N; i++) {
         for(int j = 1; j <= M; j++) {
             scanf(" %1c", &board[i][j]);
-            visit[i][j] = INT_MAX / 2;
+          //  visit[i][j] = INT_MAX / 2;
             if(board[i][j] == 'L') {
                 l.push(make_pair(i, j));
             }
