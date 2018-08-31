@@ -9,6 +9,7 @@ int vertex[105][105];
 int answer[105][105];
 vector<int> adj[105];
 int visit[105];
+
 void BFS(int i) {
 
 	visit[i] = 1;
