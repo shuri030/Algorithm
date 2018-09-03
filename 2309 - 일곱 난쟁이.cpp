@@ -15,6 +15,7 @@ int flag = 0;
 void find_who(int n, int cur, int sum)
 {
 	if(flag == 1) {	return; }
+
 	if(n >= 7) {
 		if(sum == 100) {
 			flag = 1;
@@ -39,7 +40,7 @@ void find_who(int n, int cur, int sum)
 
 int main()
 {
-	
+
 	for(int i = 0; i < 9; i++) {
 		scanf("%d", &height[i]);
 	}
